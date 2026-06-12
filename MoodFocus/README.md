@@ -1,18 +1,27 @@
-# MoodFocus
+# ⚔️ GuildFocus
 
 ## Escopo do Projeto
 
-O MoodFocus é um aplicativo desenvolvido em React Native com Expo que auxilia estudantes a organizarem suas sessões de estudo de acordo com seu estado de humor. O sistema apresenta uma sugestão de tempo de estudo e uma dica motivacional para aumentar a produtividade.
+O **GuildFocus** é uma aplicação desenvolvida em **React Native com Expo** que transforma uma sessão de foco em uma aventura de RPG. O usuário escolhe uma classe de personagem e inicia uma missão, representada por um cronômetro regressivo. Ao concluir a missão, o sistema exibe uma mensagem de sucesso e recompensa simbólica, incentivando a concentração e a produtividade de forma lúdica.
 
 ## Requisitos Funcionais
 
-* O sistema deve permitir que o usuário selecione um estado de humor.
-* O sistema deve reconhecer os seguintes estados:
+* O sistema deve permitir que o usuário escolha uma classe de personagem.
+* O sistema deve disponibilizar as seguintes classes:
 
-  * Animado
-  * Cansado
-  * Estressado
-  * Motivado
-* O sistema deve exibir um tempo de estudo recomendado de acordo com o humor selecionado.
-* O sistema deve apresentar uma dica motivacional correspondente ao estado escolhido.
-* O sistema deve atualizar as informações sempre que o usuário selecionar um novo humor.
+  * 🛡️ Guerreiro
+  * 🧙 Mago
+  * 🏹 Arqueiro
+  * 🗡️ Assassino
+* O sistema deve definir automaticamente o tempo da missão conforme a classe escolhida.
+* O sistema deve exibir um cronômetro regressivo da missão.
+* O sistema deve permitir iniciar a missão.
+* O sistema deve permitir pausar a missão.
+* O sistema deve permitir reiniciar a missão.
+* O sistema deve exibir uma mensagem de conclusão quando o tempo terminar, indicando que a quest foi finalizada e o personagem ganhou experiência.
+
+## Tecnologias Utilizadas
+
+* React Native
+* Expo
+* TypeScript
